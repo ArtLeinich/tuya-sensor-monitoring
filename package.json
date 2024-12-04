@@ -1,5 +1,5 @@
 {
-  "name": "my-monitoring-app",
+  "name": "monitoring-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,49 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.6",
+    "@mui/material": "^6.1.6",
+    "@nivo/core": "^0.87.0",
+    "@nivo/line": "^0.87.0",
+    "@prisma/client": "^5.22.0",
+    "async-lock": "^1.4.1",
+    "axios": "^1.7.7",
+    "bull": "^4.16.4",
+    "chart.js": "^4.4.6",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "chartjs-plugin-zoom": "^2.0.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^2.28.0",
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.4.1",
+    "lucide-react": "^0.456.0",
+    "next": "15.0.3",
+    "node-cron": "^3.0.3",
+    "p-limit": "^6.1.0",
+    "prisma": "^5.22.0",
+    "react": "18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-datepicker": "^7.5.0",
+    "react-dom": "18.3.1",
+    "recharts": "^2.13.3",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@shadcn/ui": "^0.0.4",
+    "@types/async-lock": "^1.4.2",
+    "@types/chart.js": "^2.9.41",
     "@types/node": "^20",
+    "@types/node-cron": "^3.0.11",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.3"
+    "typescript": "^5"
   }
 }
