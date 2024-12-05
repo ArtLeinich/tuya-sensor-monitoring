@@ -92,9 +92,20 @@ my-monitoring-app/
    npm run dev
    ```
 
-## 📊 Diagramme
+## 📊 Grafische Darstellung
+Die gespeicherten Sensordaten werden mittels interaktiver Liniendiagramme visualisiert. Die Implementierung nutzt die **Recharts**-Bibliothek und bietet folgende Funktionen:
 
-Die gespeicherten Daten werden als interaktive Diagramme angezeigt. Für die Implementierung können Bibliotheken wie **Chart.js** oder **ApexCharts** verwendet werden.
+- **Dynamische Zeitbereiche**: Auswahl zwischen Tages-, Monats- und Jahresansicht
+- **Ansichtswechsel**: Umschalten zwischen Temperatur- und Luftfeuchtigkeitsdaten
+- **Responsive Design**: Automatische Anpassung an verschiedene Bildschirmgrößen
+- **Navigationssteuerung**: Vor- und Zurücknavigation durch Zeitbereiche
+
+Hauptmerkmale der Grafik:
+- Interaktive Tooltips zur detaillierten Datenansicht
+- Klare visuelle Trennung bei fehlenden Datenpunkten
+- Anpassbare Y-Achsen-Bereiche für präzise Darstellung
+
+Die Grafiken ermöglichen eine intuitive Analyse von Temperatur- und Luftfeuchtigkeitstrends über verschiedene Zeiträume.
 
 ## ⚠️ Hinweise
 
