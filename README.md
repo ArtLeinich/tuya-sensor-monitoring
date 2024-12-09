@@ -110,7 +110,7 @@ Die Grafiken ermöglichen eine intuitive Analyse von Temperatur- und Luftfeuchti
 ## ⚠️ Hinweise
 
 - Stellen Sie sicher, dass der Tuya-API-Schlüssel und das Token regelmäßig aktualisiert werden.
-- Der Datenabruf erfolgt standardmäßig alle 5 Minuten. Dies kann in der Datei `lib/tuyaApi.ts` angepasst werden.
+- Der Datenabruf erfolgt standardmäßig alle 5 Minuten. Dies ist in der Datei app/api/sensor-data/route.ts konfiguriert, in der ein Cron-Job für den Abruf eingerichtet wurde. Falls Sie den Zeitintervall ändern möchten, passen Sie das Cron-Job-Scheduling in dieser Datei an.
 
 ## 📅 Roadmap
 
